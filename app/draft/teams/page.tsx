@@ -34,14 +34,10 @@ export default function TeamsPage() {
   const [players, setPlayers] = useState<Player[]>([]);
   const [state, setState] = useState<DraftState | null>(null);
 
-  const load = async () => {
-    const [p, s] = await Promise.all([
-      fetch("/data/players.public.json", { cache: "no-store" }).then(r => r.json()),
-      fetch("/data/draft-state.json", { cache: "no-store" }).then(r => r.json()),
-    ]);
-    setPlayers(p);
-    setState(s);
-  };
+const load = async () => {
+  const { players: p, state: s } = await fetch("/api/store", { cache: "no-store" }).then(r => r.json());
+  setPlayers(p); setState(s);
+};
 
   useEffect(() => {
     load();

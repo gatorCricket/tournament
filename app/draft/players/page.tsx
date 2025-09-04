@@ -24,28 +24,30 @@ type DraftState = {
   picks: { pickNo: number; teamId: string; playerId: string; ts?: string }[];
 };
 
-const toDriveView = (url?: string) => {
-  if (!url) return "";
-  const m = url.match(/(?:id=|file\/d\/)([\w-]+)/);
-  return m ? `https://drive.google.com/uc?export=view&id=${m[1]}` : url;
-};
-
 export default function PlayersPage() {
   const [players, setPlayers] = useState<Player[]>([]);
   const [q, setQ] = useState("");
 
   useEffect(() => {
     const load = async () => {
-      const [ps, st] = await Promise.all([
-        fetch("/data/players.public.json", { cache: "no-store" }).then(r => r.json()),
-        fetch("/data/draft-state.json", { cache: "no-store" }).then(r => r.json()),
-      ]);
-      const pickedNames = new Set(
-        (st?.picks || []).map((p: any) => String(p.playerId).trim().toLowerCase())
+      const { players: ps, state: st } = await fetch("/api/store", {
+        cache: "no-store",
+      }).then((r) => r.json());
+
+      const pickedIds = new Set<string>(
+        (st?.picks || []).map((p: any) => String(p.playerId))
       );
-      const available = (ps as Player[]).filter(
-        p => !pickedNames.has(String(p.displayName).trim().toLowerCase())
+      const pickedNames = new Set<string>(
+        (st?.picks || []).map((p: any) =>
+          String(p.playerId).trim().toLowerCase()
+        )
       );
+      const available: Player[] = (ps as Player[]).filter(
+        (p) =>
+          !pickedIds.has(p.id) &&
+          !pickedNames.has(p.displayName.trim().toLowerCase())
+      );
+
       setPlayers(available);
     };
     load();
@@ -53,7 +55,7 @@ export default function PlayersPage() {
     return () => clearInterval(t);
   }, []);
 
-  const filtered = players.filter(p =>
+  const filtered = players.filter((p) =>
     p.displayName.toLowerCase().includes(q.toLowerCase())
   );
 
@@ -65,32 +67,54 @@ export default function PlayersPage() {
         placeholder="Search by name…"
         className="border rounded-md p-2 w-full mb-4"
         value={q}
-        onChange={e => setQ(e.target.value)}
+        onChange={(e) => setQ(e.target.value)}
       />
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {filtered.map(p => (
+        {filtered.map((p) => (
           <div key={p.id} className="border rounded-xl p-3">
-            {p.photoUrl && (
-              <img
-                src={toDriveView(p.photoUrl)}
-                alt={p.displayName}
-                className="w-full h-40 object-cover rounded-lg"
-              />
-            )}
-            <div className="mt-2 font-medium">{p.displayName}</div>
+            <div className="font-medium text-lg">{p.displayName}</div>
             <div className="text-sm">
               Bat: {p.batRating ?? "-"} • Bowl: {p.bowlRating ?? "-"}
             </div>
             {p.rolePreference && (
-              <div className="text-xs mt-1">Role: {p.rolePreference}</div>
-            )}
-            {(p.duoName || p.cricClubsId) && (
               <div className="text-xs mt-1 opacity-80">
-                {p.duoName && <>Duo: {p.duoName}<br/></>}
+                Role: {p.rolePreference}
+              </div>
+            )}
+
+            {p.notesForCaptains && (
+              <div className="text-xs mt-2 p-2 rounded-md border bg-black/5">
+                <span className="font-medium">Notes: </span>
+                {p.notesForCaptains}
+              </div>
+            )}
+
+            {(p.duoName || p.cricClubsId) && (
+              <div className="text-xs mt-2 opacity-80">
+                {p.duoName && <>Duo: {p.duoName}<br /></>}
                 {p.cricClubsId && <>CricClubs: {p.cricClubsId}</>}
               </div>
             )}
+
+            {/* Photo action */}
+            <div className="mt-3">
+              {p.photoUrl ? (
+                <a
+                  href={p.photoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-full rounded-md px-3 py-2 text-sm font-medium border hover:bg-gray-50"
+                  title="Open full photo in a new tab"
+                >
+                  📷 View Photo
+                </a>
+              ) : (
+                <span className="inline-flex items-center justify-center w-full rounded-md px-3 py-2 text-sm font-medium border opacity-60">
+                  📷 No Photo
+                </span>
+              )}
+            </div>
           </div>
         ))}
       </div>

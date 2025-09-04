@@ -1,103 +1,135 @@
-import Image from "next/image";
+"use client";
+
+import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
+
+type Player = { id: string; displayName: string };
+type DraftState = {
+  teams: { id: string; name: string }[];
+  picks: { playerId: string }[];
+  round: number;
+  status: string;
+  onClockTeamId?: string;
+};
+
+const BLUE = "#0021A5";   // Gator Blue
+const ORANGE = "#FA4616"; // Gator Orange
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const [players, setPlayers] = useState<Player[]>([]);
+  const [state, setState] = useState<DraftState | null>(null);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  useEffect(() => {
+    const load = async () => {
+      const res = await fetch("/api/store", { cache: "no-store" });
+      const { players, state } = await res.json();
+      setPlayers(players);
+      setState(state);
+    };
+    load();
+    const t = setInterval(load, 2000);
+    return () => clearInterval(t);
+  }, []);
+
+  const counts = useMemo(() => {
+    if (!state) return { totalPlayers: 0, available: 0, teams: 0 };
+    const pickedIds = new Set(state.picks?.map((p) => p.playerId));
+    const pickedNames = new Set(
+      state.picks?.map((p) => String(p.playerId).trim().toLowerCase())
+    );
+    const available = players.filter(
+      (pl) =>
+        !pickedIds.has(pl.id) &&
+        !pickedNames.has(pl.displayName.trim().toLowerCase())
+    ).length;
+    return { totalPlayers: players.length, available, teams: state.teams?.length || 0 };
+  }, [players, state]);
+
+  return (
+    <main className="min-h-screen bg-[#0b0d12]">
+      {/* Top banner */}
+      <header
+        className="w-full"
+        style={{
+          background: `linear-gradient(135deg, ${BLUE} 0%, ${ORANGE} 100%)`,
+        }}
+      >
+        <div className="max-w-6xl mx-auto px-6 py-10">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-sm">
+            Gator Cricket — Community Draft
+          </h1>
+          <p className="mt-2 text-white/90">
+            Follow the draft live. Browse available players and check team rosters.
+          </p>
+
+          {/* CTAs */}
+          <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <Link
+              href="/draft/players"
+              className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg font-semibold text-white shadow-md"
+              style={{ backgroundColor: ORANGE }}
+            >
+              View Available Players
+            </Link>
+            <Link
+              href="/draft/teams"
+              className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg font-semibold text-white shadow-md"
+              style={{ backgroundColor: BLUE }}
+            >
+              View Team Rosters
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+      </header>
+
+      {/* Stats strip */}
+      <section className="max-w-6xl mx-auto px-6 -mt-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <StatCard label="Status" value={state?.status ?? "—"} color={BLUE} />
+          <StatCard label="Round" value={state?.round ?? "—"} color={BLUE} />
+          <StatCard label="Teams" value={counts.teams} color={ORANGE} />
+          <StatCard
+            label="Players (avail / total)"
+            value={`${counts.available} / ${counts.totalPlayers}`}
+            color={ORANGE}
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+      </section>
+
+      {/* Info blocks */}
+      <section className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-5">
+        <InfoCard title="Format">
+          Snake/serpentine draft. 4 players per team (adjustable). Captains pick in
+          order; optional pick clock.
+        </InfoCard>
+        <InfoCard title="Eligibility">
+          Open community draft. Captains consider ratings, role preference, notes, and
+          team balance.
+        </InfoCard>
+        <InfoCard title="Contact">
+          For issues during the draft, reach the organizer on site or via Zoom chat.
+        </InfoCard>
+      </section>
+    </main>
+  );
+}
+
+function StatCard({ label, value, color }: { label: string; value: any; color: string }) {
+  return (
+    <div className="rounded-2xl p-4 shadow-sm border" style={{ borderColor: `${color}40`, background: "#12151d" }}>
+      <div className="text-sm" style={{ color }}>
+        {label}
+      </div>
+      <div className="mt-1 text-2xl font-bold text-white">{String(value)}</div>
+    </div>
+  );
+}
+
+function InfoCard({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="rounded-2xl p-5 border shadow-sm bg-[#12151d]">
+      <h2 className="font-semibold text-white">{title}</h2>
+      <p className="text-sm mt-2 text-white/80">{children}</p>
     </div>
   );
 }
