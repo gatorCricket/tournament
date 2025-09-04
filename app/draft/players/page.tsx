@@ -1,28 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 
+type Team = { id: string; name: string };
+type Pick = { pickNo: number; teamId: string; playerId: string; ts?: string };
 type Player = {
-  id: string;
-  displayName: string;
-  photoUrl?: string;
-  batRating?: number;
-  bowlRating?: number;
-  rolePreference?: string;
-  notesForCaptains?: string;
-  clubs?: string[];
-  duoName?: string;
-  duoOptIn?: string;
-  cricClubsId?: string;
+  id: string; displayName: string; photoUrl?: string;
+  batRating?: number; bowlRating?: number; rolePreference?: string;
+  notesForCaptains?: string; clubs?: string[]; duoName?: string; duoOptIn?: string; cricClubsId?: string;
 };
-
-type DraftState = {
-  id: string;
-  status: string;
-  round: number;
-  onClockTeamId?: string;
-  teams: { id: string; name: string }[];
-  picks: { pickNo: number; teamId: string; playerId: string; ts?: string }[];
-};
+// ...existing code...
 
 export default function PlayersPage() {
   const [players, setPlayers] = useState<Player[]>([]);
@@ -30,22 +16,14 @@ export default function PlayersPage() {
 
   useEffect(() => {
     const load = async () => {
-      const { players: ps, state: st } = await fetch("/api/store", {
-        cache: "no-store",
-      }).then((r) => r.json());
+      const res = await fetch("/api/store", { cache: "no-store" });
+  const data: { players: Player[]; state: { id: string; status: string; round: number; onClockTeamId?: string; teams: Team[]; picks: Pick[] } } = await res.json();
 
-      const pickedIds = new Set<string>(
-        (st?.picks || []).map((p: any) => String(p.playerId))
-      );
-      const pickedNames = new Set<string>(
-        (st?.picks || []).map((p: any) =>
-          String(p.playerId).trim().toLowerCase()
-        )
-      );
-      const available: Player[] = (ps as Player[]).filter(
-        (p) =>
-          !pickedIds.has(p.id) &&
-          !pickedNames.has(p.displayName.trim().toLowerCase())
+      const pickedIds = new Set<string>((data.state?.picks ?? []).map((p: Pick) => String(p.playerId)));
+      const pickedNames = new Set<string>((data.state?.picks ?? []).map((p: Pick) => String(p.playerId).trim().toLowerCase()));
+
+      const available = (data.players ?? []).filter(
+        (p) => !pickedIds.has(p.id) && !pickedNames.has(p.displayName.trim().toLowerCase())
       );
 
       setPlayers(available);
@@ -55,9 +33,7 @@ export default function PlayersPage() {
     return () => clearInterval(t);
   }, []);
 
-  const filtered = players.filter((p) =>
-    p.displayName.toLowerCase().includes(q.toLowerCase())
-  );
+  const filtered = players.filter((p) => p.displayName.toLowerCase().includes(q.toLowerCase()));
 
   return (
     <main className="max-w-6xl mx-auto p-4">
@@ -74,14 +50,8 @@ export default function PlayersPage() {
         {filtered.map((p) => (
           <div key={p.id} className="border rounded-xl p-3">
             <div className="font-medium text-lg">{p.displayName}</div>
-            <div className="text-sm">
-              Bat: {p.batRating ?? "-"} • Bowl: {p.bowlRating ?? "-"}
-            </div>
-            {p.rolePreference && (
-              <div className="text-xs mt-1 opacity-80">
-                Role: {p.rolePreference}
-              </div>
-            )}
+            <div className="text-sm">Bat: {p.batRating ?? "-"} • Bowl: {p.bowlRating ?? "-"}</div>
+            {p.rolePreference && <div className="text-xs mt-1 opacity-80">Role: {p.rolePreference}</div>}
 
             {p.notesForCaptains && (
               <div className="text-xs mt-2 p-2 rounded-md border bg-black/5">
@@ -97,7 +67,6 @@ export default function PlayersPage() {
               </div>
             )}
 
-            {/* Photo action */}
             <div className="mt-3">
               {p.photoUrl ? (
                 <a

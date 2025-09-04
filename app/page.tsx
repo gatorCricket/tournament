@@ -3,17 +3,13 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
+type Team = { id: string; name: string };
+type Pick = { playerId: string };
 type Player = { id: string; displayName: string };
-type DraftState = {
-  teams: { id: string; name: string }[];
-  picks: { playerId: string }[];
-  round: number;
-  status: string;
-  onClockTeamId?: string;
-};
+type DraftState = { teams: Team[]; picks: Pick[]; round: number; status: string; onClockTeamId?: string };
 
-const BLUE = "#0021A5";   // Gator Blue
-const ORANGE = "#FA4616"; // Gator Orange
+const BLUE = "#0021A5";
+const ORANGE = "#FA4616";
 
 export default function Home() {
   const [players, setPlayers] = useState<Player[]>([]);
@@ -22,9 +18,9 @@ export default function Home() {
   useEffect(() => {
     const load = async () => {
       const res = await fetch("/api/store", { cache: "no-store" });
-      const { players, state } = await res.json();
-      setPlayers(players);
-      setState(state);
+      const data: { players: Player[]; state: DraftState } = await res.json();
+      setPlayers(data.players);
+      setState(data.state);
     };
     load();
     const t = setInterval(load, 2000);
@@ -34,92 +30,54 @@ export default function Home() {
   const counts = useMemo(() => {
     if (!state) return { totalPlayers: 0, available: 0, teams: 0 };
     const pickedIds = new Set(state.picks?.map((p) => p.playerId));
-    const pickedNames = new Set(
-      state.picks?.map((p) => String(p.playerId).trim().toLowerCase())
-    );
+    const pickedNames = new Set(state.picks?.map((p) => String(p.playerId).trim().toLowerCase()));
     const available = players.filter(
-      (pl) =>
-        !pickedIds.has(pl.id) &&
-        !pickedNames.has(pl.displayName.trim().toLowerCase())
+      (pl) => !pickedIds.has(pl.id) && !pickedNames.has(pl.displayName.trim().toLowerCase())
     ).length;
     return { totalPlayers: players.length, available, teams: state.teams?.length || 0 };
   }, [players, state]);
 
   return (
     <main className="min-h-screen bg-[#0b0d12]">
-      {/* Top banner */}
-      <header
-        className="w-full"
-        style={{
-          background: `linear-gradient(135deg, ${BLUE} 0%, ${ORANGE} 100%)`,
-        }}
-      >
+      <header className="w-full" style={{ background: `linear-gradient(135deg, ${BLUE} 0%, ${ORANGE} 100%)` }}>
         <div className="max-w-6xl mx-auto px-6 py-10">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-sm">
             Gator Cricket — Community Draft
           </h1>
-          <p className="mt-2 text-white/90">
-            Follow the draft live. Browse available players and check team rosters.
-          </p>
-
-          {/* CTAs */}
+          <p className="mt-2 text-white/90">Follow the draft live. Browse available players and check team rosters.</p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
-            <Link
-              href="/draft/players"
-              className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg font-semibold text-white shadow-md"
-              style={{ backgroundColor: ORANGE }}
-            >
+            <Link href="/draft/players" className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg font-semibold text-white shadow-md" style={{ backgroundColor: ORANGE }}>
               View Available Players
             </Link>
-            <Link
-              href="/draft/teams"
-              className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg font-semibold text-white shadow-md"
-              style={{ backgroundColor: BLUE }}
-            >
+            <Link href="/draft/teams" className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg font-semibold text-white shadow-md" style={{ backgroundColor: BLUE }}>
               View Team Rosters
             </Link>
           </div>
         </div>
       </header>
 
-      {/* Stats strip */}
       <section className="max-w-6xl mx-auto px-6 -mt-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <StatCard label="Status" value={state?.status ?? "—"} color={BLUE} />
           <StatCard label="Round" value={state?.round ?? "—"} color={BLUE} />
           <StatCard label="Teams" value={counts.teams} color={ORANGE} />
-          <StatCard
-            label="Players (avail / total)"
-            value={`${counts.available} / ${counts.totalPlayers}`}
-            color={ORANGE}
-          />
+          <StatCard label="Players (avail / total)" value={`${counts.available} / ${counts.totalPlayers}`} color={ORANGE} />
         </div>
       </section>
 
-      {/* Info blocks */}
       <section className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-5">
-        <InfoCard title="Format">
-          Snake/serpentine draft. 4 players per team (adjustable). Captains pick in
-          order; optional pick clock.
-        </InfoCard>
-        <InfoCard title="Eligibility">
-          Open community draft. Captains consider ratings, role preference, notes, and
-          team balance.
-        </InfoCard>
-        <InfoCard title="Contact">
-          For issues during the draft, reach the organizer on site or via Zoom chat.
-        </InfoCard>
+        <InfoCard title="Format">Snake/serpentine draft. 4 players per team (adjustable). Captains pick in order; optional pick clock.</InfoCard>
+        <InfoCard title="Eligibility">Open community draft. Captains consider ratings, role preference, notes, and team balance.</InfoCard>
+        <InfoCard title="Contact">For issues during the draft, reach the organizer on site or via Zoom chat.</InfoCard>
       </section>
     </main>
   );
 }
 
-function StatCard({ label, value, color }: { label: string; value: any; color: string }) {
+function StatCard({ label, value, color }: { label: string; value: string | number; color: string }) {
   return (
     <div className="rounded-2xl p-4 shadow-sm border" style={{ borderColor: `${color}40`, background: "#12151d" }}>
-      <div className="text-sm" style={{ color }}>
-        {label}
-      </div>
+      <div className="text-sm" style={{ color }}>{label}</div>
       <div className="mt-1 text-2xl font-bold text-white">{String(value)}</div>
     </div>
   );
