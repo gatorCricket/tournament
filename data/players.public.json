@@ -696,8 +696,7 @@
 
    "rolePreference": "All Rounder",
 
-   "notesForCaptains": "Good fast bowler, Attacking batsman"
-
+   "notesForCaptains": "Good fast bowler, Attacking batsman",
    "clubs": [
 
      "CriGators"
@@ -1295,9 +1294,7 @@
    "bowlRating": 5,
 
    "rolePreference": "Prefer batting more",
-
-   "notesForCaptains": Left handed attacking batsmen,
-
+   "notesForCaptains": "Left handed attacking batsmen",
    "clubs": [
 
      "Alachua Cricket Club"
@@ -1805,9 +1802,7 @@
    "bowlRating": 4,
 
    "rolePreference": null,
-
-   "notesForCaptains": fast bowler and handy batsmen,
-
+   "notesForCaptains": "fast bowler and handy batsmen",
    "clubs": []
 
  },
