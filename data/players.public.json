@@ -1,959 +1,1895 @@
 [
-  {
-    "id": "plr-854e7219cd",
-    "displayName": "Afif Sayed",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Only here for fun",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club",
-      "Stoneridge Cricket Club",
-      "Weekend Warriors",
-      "Alachua Cricket Club",
-      "Corry Cricket Club",
-      "Crigators"
-    ]
-  },
-  {
-    "id": "plr-fc7490a97c",
-    "displayName": "Siddhant  Kumar panda",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club",
-      "Stoneridge Cricket Club",
-      "Alachua Cricket Club",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-6b35a003ac",
-    "displayName": "Pulastya",
-    "photoUrl": null,
-    "batRating": 5,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club",
-      "Stoneridge Cricket Club",
-      "Alachua Cricket Club",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-79795ad2ee",
-    "displayName": "Raghava A",
-    "photoUrl": null,
-    "batRating": null,
-    "bowlRating": null,
-    "rolePreference": null,
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club",
-      "Stoneridge Cricket Club",
-      "Alachua Cricket Club",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-882d6b14ea",
-    "displayName": "Aditya Patidar",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Corry Cricket Club",
-      "Gator Cricket Club",
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-221a2316d8",
-    "displayName": "Amey Paldhikar",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 4,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club",
-      "Stoneridge Cricket Club",
-      "Alachua Cricket Club",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-1a1eb65da9",
-    "displayName": "Tanish Patel",
-    "photoUrl": null,
-    "batRating": 2,
-    "bowlRating": 2,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-9d1c7bd997",
-    "displayName": "Tanay Chandak",
-    "photoUrl": "https://drive.google.com/open?id=1BFO_q6Qu0rD8bVQN-vFbwwIWEn1--SVu",
-    "batRating": 3,
-    "bowlRating": 1,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-91f44f283b",
-    "displayName": "Sunil Badyal",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 1,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-9dd81ef513",
-    "displayName": "Mohkam Singh",
-    "photoUrl": "https://drive.google.com/open?id=1EEXVvBvZzGRoO2SpM6o-k8HkqiioSnQQ",
-    "batRating": 3,
-    "bowlRating": 1,
-    "rolePreference": "Prefer batting more, Wicket keeping",
-    "notesForCaptains": "Wicket keeper batsman!",
-    "clubs": []
-  },
-  {
-    "id": "plr-807dbde61a",
-    "displayName": "ramiya dash",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 4,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-2dfc28a22e",
-    "displayName": "Mayank",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 4,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-1f0e6f61f4",
-    "displayName": "Milan",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "All Rounder"
-    ]
-  },
-  {
-    "id": "plr-f4dbd8e392",
-    "displayName": "Pranav Guduru",
-    "photoUrl": null,
-    "batRating": 2,
-    "bowlRating": 1,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "ISA Undergrads"
-    ]
-  },
-  {
-    "id": "plr-dc2b56abe5",
-    "displayName": "Harsha Vardhan Reddy Vndavally",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club",
-      "Stoneridge Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-03dc78e41e",
-    "displayName": "Pavan",
-    "photoUrl": "https://drive.google.com/open?id=1eOjwzdAySI9qjAJj1NQ3HV9EZwTwBaIQ",
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "ISA Undergrads"
-    ]
-  },
-  {
-    "id": "plr-1657a4f5ec",
-    "displayName": "Sai Pulaparthi",
-    "photoUrl": null,
-    "batRating": 2,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder, Only here for fun",
-    "notesForCaptains": null,
-    "clubs": [
-      "Other"
-    ]
-  },
-  {
-    "id": "plr-432e233c68",
-    "displayName": "Sarveshwaran Palani",
-    "photoUrl": null,
-    "batRating": 1,
-    "bowlRating": 3,
-    "rolePreference": "Prefer bowling more",
-    "notesForCaptains": null,
-    "clubs": [
-      "ISA Undergrads"
-    ]
-  },
-  {
-    "id": "plr-531a2e92a1",
-    "displayName": "Mandar Joshi",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Weekend Warriors"
-    ]
-  },
-  {
-    "id": "plr-3b1b372ebd",
-    "displayName": "Abhinay Reddy",
-    "photoUrl": null,
-    "batRating": 1,
-    "bowlRating": 1,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Stoneridge Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-31c950d333",
-    "displayName": "Aahan Dwivedi",
-    "photoUrl": null,
-    "batRating": 2,
-    "bowlRating": 4,
-    "rolePreference": "Prefer bowling more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Weekend Warriors"
-    ]
-  },
-  {
-    "id": "plr-d4ab882040",
-    "displayName": "Aahan Dwivedi",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 5,
-    "rolePreference": "Prefer bowling more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Weekend Warriors"
-    ]
-  },
-  {
-    "id": "plr-f28ff78ded",
-    "displayName": "Kumar Chakraborty",
-    "photoUrl": "https://drive.google.com/open?id=1FQpTDFNLYIZgsA_oljslLN4OuGPrG9nj",
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Prefer bowling more",
-    "notesForCaptains": "I'm a decent right arm medium pace bowler and can bat relatively well at number 6.",
-    "clubs": []
-  },
-  {
-    "id": "plr-65dbe202e2",
-    "displayName": "Abhinav",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 4,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-32541ccddc",
-    "displayName": "Waqar Akram",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-7c87d9f6f6",
-    "displayName": "Haniel Pallepogu",
-    "photoUrl": "https://drive.google.com/open?id=1VoJPQDV0dSLqNTBSFxan0jqVJ_BbASG8",
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": "Right-arm batting, Right-arm quick bowling, 17 yrs old, limited experience",
-    "clubs": []
-  },
-  {
-    "id": "plr-76378f1999",
-    "displayName": "Vasanth Parthasarathy",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-1cae645b5e",
-    "displayName": "Pratush Brahma",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-988a763c8a",
-    "displayName": "Kaushik Bhargav Siddani",
-    "photoUrl": null,
-    "batRating": 5,
-    "bowlRating": 4,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "I am new to UF",
-      "I am national level player in India"
-    ]
-  },
-  {
-    "id": "plr-4c155cdae3",
-    "displayName": "Rizwan Nabi",
-    "photoUrl": "https://drive.google.com/open?id=1XqgHyyKHZiW8q6C01LJ3NMPiK8rkPHxm",
-    "batRating": 3,
-    "bowlRating": 5,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "CriGators"
-    ]
-  },
-  {
-    "id": "plr-1117edeac4",
-    "displayName": "Nirshad",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "BD Gators",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-4a6ed75c50",
-    "displayName": "Sheikh Rauf",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-69fabc42df",
-    "displayName": "Muhammad waqas",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 2,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-6ea9bf8c6b",
-    "displayName": "Naeem Khan",
-    "photoUrl": "https://drive.google.com/open?id=14vUlSNkbw2tgWyScQDBR9qSz95PgiUQh",
-    "batRating": 3,
-    "bowlRating": 5,
-    "rolePreference": "Prefer bowling more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-3e0f4b37e9",
-    "displayName": "AHMAD ALI",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-6ad09c1eeb",
-    "displayName": "Vivek Sharma",
-    "photoUrl": null,
-    "batRating": 1,
-    "bowlRating": 1,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "WW"
-    ]
-  },
-  {
-    "id": "plr-445d133c17",
-    "displayName": "Azmat Khan",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-25dd6298a6",
-    "displayName": "Jay Patel",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 5,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Weekend Warriors"
-    ]
-  },
-  {
-    "id": "plr-726a14b08d",
-    "displayName": "Raja kashif",
-    "photoUrl": "https://drive.google.com/open?id=1J2P1QiHHZrXJDHgvjNtqqb6q1AjQ6RJo",
-    "batRating": 3,
-    "bowlRating": 1,
-    "rolePreference": "Prefer bowling more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-ce4767635e",
-    "displayName": "Arnav Chaudhari",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Only here for fun",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-eac7268a2d",
-    "displayName": "Kedar Kelkar",
-    "photoUrl": null,
-    "batRating": 5,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Stoneridge Cricket Club",
-      "Corry Cricket Club",
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-8632e56417",
-    "displayName": "Mudit Arya",
-    "photoUrl": "https://drive.google.com/open?id=13WMn5rmLkpQ1LkGUvnWPOi0cdmqnhDE5",
-    "batRating": 4,
-    "bowlRating": 5,
-    "rolePreference": "Prefer bowling more",
-    "notesForCaptains": "Hey captain,\nI am a fast paced bowler, mid level batsman, and great fielder. :)",
-    "clubs": [
-      "Other"
-    ]
-  },
-  {
-    "id": "plr-7fdad8c70c",
-    "displayName": "Rinku Yadav",
-    "photoUrl": null,
-    "batRating": 2,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club",
-      "Stoneridge Cricket Club",
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-60f08e37d8",
-    "displayName": "Arman Haleem",
-    "photoUrl": "https://drive.google.com/open?id=13nUkH9xa_bz_H0ibQUDeAR0iYXW3T0Qw",
-    "batRating": 1,
-    "bowlRating": 1,
-    "rolePreference": "Only here for fun",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alone Offender"
-    ]
-  },
-  {
-    "id": "plr-7af5b7b6ad",
-    "displayName": "Sumanth Devarasetty",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Stoneridge Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-c9d1261b0e",
-    "displayName": "Hemanth Krishna Maraboina",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 1,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Stoneridge Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-67779ac279",
-    "displayName": "Ajay",
-    "photoUrl": "https://drive.google.com/open?id=1Z2t5_dpML4ueizbNfM7Md4SkEiSRu9_G",
-    "batRating": 2,
-    "bowlRating": 3,
-    "rolePreference": "Prefer bowling more, Decent fielder",
-    "notesForCaptains": "Can bowl a little , field slightly better , batting not explored yet 😀",
-    "clubs": [
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-c18b946918",
-    "displayName": "Biswadeep Seth",
-    "photoUrl": "https://drive.google.com/open?id=1e_YGlLUEkUsKcmJ0PIyQmVCiWlG1exML",
-    "batRating": 4,
-    "bowlRating": 5,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": "I want to contribute to both bat and ball. Big-hitting skills might require a little practice, and I can comfortably rotate or hold the strike at one end. Bowling is fine for me at any stage.",
-    "clubs": [
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-c523e77dc0",
-    "displayName": "Adi",
-    "photoUrl": "https://drive.google.com/open?id=11gg2fy76q8HYB8bxRGDwwLN9EKTx3Jav",
-    "batRating": 4,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "None"
-    ]
-  },
-  {
-    "id": "plr-ba325e9a2f",
-    "displayName": "Rachit Rathi",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Only here for fun",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-c73b5bb8c5",
-    "displayName": "Ali Dahri",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 4,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-21d38d2210",
-    "displayName": "Rakesh Singh",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-c5da305f03",
-    "displayName": "Tejeshwar Sankaranarayanan",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-d7837e7d22",
-    "displayName": "Vikash Verma",
-    "photoUrl": "https://drive.google.com/open?id=1x4hyB-SpqHhKNYT5dRA31PkiYbXyfqPb",
-    "batRating": 5,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": "I am a right-hand batsman and a wicketkeeper, with strong fielding skills. I can also bowl right-arm medium fast ( if needed).",
-    "clubs": [
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-ef3541e6de",
-    "displayName": "Usman Maqbool",
-    "photoUrl": "https://drive.google.com/open?id=1N63ripgdYRN57UvCBCJ7_25yhG5Soq1T",
-    "batRating": 3,
-    "bowlRating": 5,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-35998df39b",
-    "displayName": "Muhammad Sohail Siddique",
-    "photoUrl": "https://drive.google.com/open?id=1s00Q2d_qBwIgAmDcT1RxWxIaPdDxGZB1",
-    "batRating": 3,
-    "bowlRating": 1,
-    "rolePreference": "Only here for fun",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-f2ea79dd3c",
-    "displayName": "Vishal Elaka",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Stoneridge Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-b397b2487b",
-    "displayName": "Sahan Sanjaya",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Prefer bowling more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Corry Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-96097ddf64",
-    "displayName": "Xahid",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": [
-      "CriGators"
-    ]
-  },
-  {
-    "id": "plr-c9387742fb",
-    "displayName": "Divij Goyal",
-    "photoUrl": null,
-    "batRating": 1,
-    "bowlRating": 2,
-    "rolePreference": "Prefer bowling more, Only here for fun",
-    "notesForCaptains": null,
-    "clubs": [
-      "ISA Undergrads"
-    ]
-  },
-  {
-    "id": "plr-1efe296710",
-    "displayName": "Vedant Upganlawar",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-64e57c6a04",
-    "displayName": "S M Afnan Haque Rehan",
-    "photoUrl": null,
-    "batRating": 5,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-41e853728f",
-    "displayName": "Krishna",
-    "photoUrl": null,
-    "batRating": 2,
-    "bowlRating": 5,
-    "rolePreference": "Prefer bowling more",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-f7120e0776",
-    "displayName": "C B RAM",
-    "photoUrl": "https://drive.google.com/open?id=1w9xD-J4zo1y3XzFaZtRVuozu9fzF5ZEU",
-    "batRating": 3,
-    "bowlRating": 4,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": "I’m a all-rounder who can bat in the middle order and I can bowl off spin and medium fast as well",
-    "clubs": [
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-30df09f952",
-    "displayName": "Nitish",
-    "photoUrl": "https://drive.google.com/open?id=1WHpetESm-4oG3kGnsXbtczb600hG6NfS",
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": "I’m an all-rounder, steady bat, handy bowler, and always bringing energy to the field",
-    "clubs": [
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-98a9b00659",
-    "displayName": "Sharath Subramanian",
-    "photoUrl": "https://drive.google.com/open?id=1iFhUaSJ3CW4SsbgU9phW4smBIAx-WK6C",
-    "batRating": 4,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": "I’m a dynamic, explosive batsman who can change the game quickly. I bring high energy to the field, adapt to different match situations, and thrive under pressure",
-    "clubs": []
-  },
-  {
-    "id": "plr-d4b209b112",
-    "displayName": "Rishi  Gandhi",
-    "photoUrl": "https://drive.google.com/open?id=10LqMvhj7xvVdue_aNe-vQP5f30uAc_hD",
-    "batRating": 2,
-    "bowlRating": 5,
-    "rolePreference": "Prefer bowling more, Only here for fun, Fielding",
-    "notesForCaptains": "i played during highschool for 2 years and played for usa u15 but havent played since then",
-    "clubs": []
-  },
-  {
-    "id": "plr-d5a8c769b4",
-    "displayName": "Prasheel",
-    "photoUrl": "https://drive.google.com/open?id=1xAGpqgC3q3vMxh1OFMOIUtcOJ66B3avH",
-    "batRating": 2,
-    "bowlRating": 2,
-    "rolePreference": "Only here for fun",
-    "notesForCaptains": "I have literally barely played the sport but I’m down to play any position.",
-    "clubs": []
-  },
-  {
-    "id": "plr-78596d28a4",
-    "displayName": "Sarth",
-    "photoUrl": "https://drive.google.com/open?id=1SK2bFMRpF4v--L6yqmO5QlqxzIYws0w5",
-    "batRating": 4,
-    "bowlRating": 3,
-    "rolePreference": "Prefer batting more, Prefer bowling more, All Rounder, Only here for fun",
-    "notesForCaptains": "Can Bowl and Bat",
-    "clubs": []
-  },
-  {
-    "id": "plr-a2bb306ab4",
-    "displayName": "Kshitij Jain",
-    "photoUrl": "https://drive.google.com/open?id=139FtNj5mObxy49VnkrvyXBfC5qWHjob-",
-    "batRating": 2,
-    "bowlRating": 4,
-    "rolePreference": "Prefer bowling more, All Rounder",
-    "notesForCaptains": "- Got Selected to U15 and U17 Nationals in consecutive years for USA Cricket and represented Mid-Atlantic Zone\n- Right-Arm Finger/Wrist Spinner, Can Spin both Ways",
-    "clubs": []
-  },
-  {
-    "id": "plr-bdae9c19e8",
-    "displayName": "Jithen Shriyan",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 1,
-    "rolePreference": "Prefer batting more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "ISA Undergrads",
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-a2e90db663",
-    "displayName": "Adithya Vardhan",
-    "photoUrl": null,
-    "batRating": 4,
-    "bowlRating": 5,
-    "rolePreference": "Prefer bowling more, All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-63c3a609f8",
-    "displayName": "Pruthvi Manjunatha",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-b1595f43ea",
-    "displayName": "Ashwin John Vichatt",
-    "photoUrl": null,
-    "batRating": 1,
-    "bowlRating": 2,
-    "rolePreference": "Prefer bowling more, Only here for fun",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-203c621f0b",
-    "displayName": "Raja Ali Raza",
-    "photoUrl": "https://drive.google.com/open?id=1DllIATO8_IMicIreRDN0cW-xbgmOBU9c",
-    "batRating": 5,
-    "bowlRating": 5,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": [
-      "Alachua Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-a9363c3307",
-    "displayName": "Nicholas Cohen",
-    "photoUrl": null,
-    "batRating": 2,
-    "bowlRating": 2,
-    "rolePreference": "Prefer batting more, All Rounder, Fielding",
-    "notesForCaptains": null,
-    "clubs": [
-      "Gator Cricket Club"
-    ]
-  },
-  {
-    "id": "plr-738d69ed1a",
-    "displayName": "Mayank Gangwar",
-    "photoUrl": null,
-    "batRating": 3,
-    "bowlRating": 3,
-    "rolePreference": "All Rounder",
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-e766488a0d",
-    "displayName": "Ahmed Rasul",
-    "photoUrl": null,
-    "batRating": null,
-    "bowlRating": null,
-    "rolePreference": null,
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-a117dcc3a9",
-    "displayName": "Kawser Kawser",
-    "photoUrl": null,
-    "batRating": null,
-    "bowlRating": null,
-    "rolePreference": null,
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-1fa82bda6e",
-    "displayName": "Ravi",
-    "photoUrl": null,
-    "batRating": null,
-    "bowlRating": null,
-    "rolePreference": null,
-    "notesForCaptains": "All rounder",
-    "clubs": []
-  },
-  {
-    "id": "plr-8335b406bf",
-    "displayName": "Sheikh Rauf",
-    "photoUrl": "https://drive.google.com/open?id=1I-UXW3x8O8fTLmarO0xlqMIAxIcsPgau",
-    "batRating": null,
-    "bowlRating": null,
-    "rolePreference": null,
-    "notesForCaptains": null,
-    "clubs": []
-  },
-  {
-    "id": "plr-b0c0d5baa3",
-    "displayName": "Laksh Patel",
-    "photoUrl": "",
-    "batRating": null,
-    "bowlRating": null,
-    "rolePreference": null,
-    "notesForCaptains": null,
-    "clubs": []
-  }
+
+ {
+
+   "id": "plr-854e7219cd",
+
+   "displayName": "Afif Sayed",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Only here for fun",
+
+   "notesForCaptains": “Solid batsmen to provide stability and part time bowler”,
+
+   "clubs": [
+
+     "Gator Cricket Club",
+
+     "Stoneridge Cricket Club",
+
+     "Weekend Warriors",
+
+     "Alachua Cricket Club",
+
+     "Corry Cricket Club",
+
+     "Crigators"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-fc7490a97c",
+
+   "displayName": "Siddhant  Kumar panda",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Gator Cricket Club",
+
+     "Stoneridge Cricket Club",
+
+     "Alachua Cricket Club",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-6b35a003ac",
+
+   "displayName": "Pulastya",
+
+   "photoUrl": null,
+
+   "batRating": 5,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Gator Cricket Club",
+
+     "Stoneridge Cricket Club",
+
+     "Alachua Cricket Club",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-79795ad2ee",
+
+   "displayName": "Raghava A",
+
+   "photoUrl": null,
+
+   "batRating": null,
+
+   "bowlRating": null,
+
+   "rolePreference": null,
+
+   "notesForCaptains":” Left-handed attacking batsmen and medium pace bowler”,
+
+   "clubs": [
+
+     "Gator Cricket Club",
+
+     "Stoneridge Cricket Club",
+
+     "Alachua Cricket Club",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-882d6b14ea",
+
+   "displayName": "Aditya Patidar",
+
+   "photoUrl": "https://drive.google.com/open?id=1qCi5QpeSLEk4QKf7zzRGtgwYghFnGW8U",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains":”High spirit for the game. I can adapt myself to meet the team's needs. Fiery on fielding. Remember that catches win the matches.. Anchor type batsmen but a gun fielder and has played for Corry, Alachua cricket club”,
+
+   "clubs": [
+
+     "Corry Cricket Club",
+
+     "Gator Cricket Club",
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-221a2316d8",
+
+   "displayName": "Amey Paldhikar",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 4,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Gator Cricket Club",
+
+     "Stoneridge Cricket Club",
+
+     "Alachua Cricket Club",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-1a1eb65da9",
+
+   "displayName": "Tanish Patel",
+
+   "photoUrl": null,
+
+   "batRating": 2,
+
+   "bowlRating": 2,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-9d1c7bd997",
+
+   "displayName": "Tanay Chandak",
+
+   "photoUrl": "https://drive.google.com/open?id=1BFO_q6Qu0rD8bVQN-vFbwwIWEn1--SVu",
+
+   "batRating": 3,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-91f44f283b",
+
+   "displayName": "Sunil Badyal",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": “Attacking top order batsmen and plays for GCC “,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-9dd81ef513",
+
+   "displayName": "Mohkam Singh",
+
+   "photoUrl": "https://drive.google.com/open?id=1EEXVvBvZzGRoO2SpM6o-k8HkqiioSnQQ",
+
+   "batRating": 3,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Prefer batting more, Wicket keeping",
+
+   "notesForCaptains": "Wicket keeper batsman!",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-807dbde61a",
+
+   "displayName": "ramiya dash",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 4,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-2dfc28a22e",
+
+   "displayName": "Mayank",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 4,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-1f0e6f61f4",
+
+   "displayName": "Milan",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "All Rounder"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-f4dbd8e392",
+
+   "displayName": "Pranav Guduru",
+
+   "photoUrl": null,
+
+   "batRating": 2,
+
+   "bowlRating": 1,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "ISA Undergrads"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-dc2b56abe5",
+
+   "displayName": "Harsha Vardhan Reddy Vndavally",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Gator Cricket Club",
+
+     "Stoneridge Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-03dc78e41e",
+
+   "displayName": "Pavan",
+
+   "photoUrl": "https://drive.google.com/open?id=1eOjwzdAySI9qjAJj1NQ3HV9EZwTwBaIQ",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "ISA Undergrads"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-1657a4f5ec",
+
+   "displayName": "Sai Pulaparthi",
+
+   "photoUrl": null,
+
+   "batRating": 2,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder, Only here for fun",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Other"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-432e233c68",
+
+   "displayName": "Sarveshwaran Palani",
+
+   "photoUrl": "https://drive.google.com/open?id=1_ORiDCBpQ2OLT5BmDSEMnEni5yCRht7a",
+
+   "batRating": 1,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer bowling more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "ISA Undergrads"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-531a2e92a1",
+
+   "displayName": "Mandar Joshi",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Weekend Warriors"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-3b1b372ebd",
+
+   "displayName": "Abhinay Reddy",
+
+   "photoUrl": null,
+
+   "batRating": 1,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Stoneridge Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-31c950d333",
+
+   "displayName": "Aahan Dwivedi",
+
+   "photoUrl": "https://drive.google.com/open?id=13cE4nr9hCNFRV66rYpTnxzS4Rlmkr7i0",
+
+   "batRating": 2,
+
+   "bowlRating": 4,
+
+   "rolePreference": "Prefer bowling more",
+
+   "notesForCaptains": "Right-arm fast bowler, can extract extra bounce and swing. Good fielding, especially in covering ground and getting stops. Fast runner, aggressively seeking singles and doubles while batting.",
+
+   "clubs": [
+
+     "Weekend Warriors"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-f28ff78ded",
+
+   "displayName": "Kumar Chakraborty",
+
+   "photoUrl": "https://drive.google.com/open?id=1FQpTDFNLYIZgsA_oljslLN4OuGPrG9nj",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer bowling more",
+
+   "notesForCaptains": "I'm a decent right arm medium pace bowler and can bat relatively well at number 6.",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-65dbe202e2",
+
+   "displayName": "Abhinav",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 4,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": “Good bowler, has played for Stoneridge and also for GCC has been leading wicket taker in previous edition.”,
+
+   "clubs": [
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-32541ccddc",
+
+   "displayName": "Waqar Akram",
+
+   "photoUrl": "https://drive.google.com/open?id=1abeQ9LLdKLzXEWE13vwDOCrS25qLnTmF",
+
+   "batRating": 4,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-7c87d9f6f6",
+
+   "displayName": "Haniel Pallepogu",
+
+   "photoUrl": "https://drive.google.com/open?id=1VoJPQDV0dSLqNTBSFxan0jqVJ_BbASG8",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": "Right-arm batting, Right-arm quick bowling, 17 yrs old, limited experience",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-76378f1999",
+
+   "displayName": "Vasanth Parthasarathy",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-1cae645b5e",
+
+   "displayName": "Pratush Brahma",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-988a763c8a",
+
+   "displayName": "Kaushik Bhargav Siddani",
+
+   "photoUrl": null,
+
+   "batRating": 5,
+
+   "bowlRating": 4,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains":       " National level player in India"
+
+,
+
+   "clubs": [
+
+     "I am new to UF",
+
+     "I am national level player in India"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-4c155cdae3",
+
+   "displayName": "Rizwan Nabi",
+
+   "photoUrl": "https://drive.google.com/open?id=1XqgHyyKHZiW8q6C01LJ3NMPiK8rkPHxm",
+
+   "batRating": 3,
+
+   "bowlRating": 5,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": “Good fast bowler, Attacking batsman”
+
+   "clubs": [
+
+     "CriGators"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-1117edeac4",
+
+   "displayName": "Nirshad",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "BD Gators",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-4a6ed75c50",
+
+   "displayName": "Sheikh Rauf",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-69fabc42df",
+
+   "displayName": "Muhammad waqas",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 2,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-6ea9bf8c6b",
+
+   "displayName": "Naeem Khan",
+
+   "photoUrl": "https://drive.google.com/open?id=14vUlSNkbw2tgWyScQDBR9qSz95PgiUQh",
+
+   "batRating": 3,
+
+   "bowlRating": 5,
+
+   "rolePreference": "Prefer bowling more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-3e0f4b37e9",
+
+   "displayName": "AHMAD ALI",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": “attacking batsmen”,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-6ad09c1eeb",
+
+   "displayName": "Vivek Sharma",
+
+   "photoUrl": null,
+
+   "batRating": 1,
+
+   "bowlRating": 1,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "WW"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-445d133c17",
+
+   "displayName": "Azmat Khan",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-25dd6298a6",
+
+   "displayName": "Jay Patel",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 5,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": “has played for weekend warriors before, very dependable all rounder”,
+
+   "clubs": [
+
+     "Weekend Warriors"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-726a14b08d",
+
+   "displayName": "Raja kashif",
+
+   "photoUrl": "https://drive.google.com/open?id=1J2P1QiHHZrXJDHgvjNtqqb6q1AjQ6RJo",
+
+   "batRating": 3,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Prefer bowling more, All Rounder",
+
+   "notesForCaptains":” right arm medium bowler with control over line and length”,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-ce4767635e",
+
+   "displayName": "Arnav Chaudhari",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Only here for fun",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-eac7268a2d",
+
+   "displayName": "Kedar Kelkar",
+
+   "photoUrl": null,
+
+   "batRating": 5,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Stoneridge Cricket Club",
+
+     "Corry Cricket Club",
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-8632e56417",
+
+   "displayName": "Mudit Arya",
+
+   "photoUrl": "https://drive.google.com/open?id=13WMn5rmLkpQ1LkGUvnWPOi0cdmqnhDE5",
+
+   "batRating": 4,
+
+   "bowlRating": 5,
+
+   "rolePreference": "Prefer bowling more",
+
+   "notesForCaptains": "Hey captain,\nI am a fast paced bowler, mid level batsman, and great fielder. :)",
+
+   "clubs": [
+
+     "Other"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-7fdad8c70c",
+
+   "displayName": "Rinku Yadav",
+
+   "photoUrl": null,
+
+   "batRating": 2,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club",
+
+     "Stoneridge Cricket Club",
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-60f08e37d8",
+
+   "displayName": "Arman Haleem",
+
+   "photoUrl": "https://drive.google.com/open?id=13nUkH9xa_bz_H0ibQUDeAR0iYXW3T0Qw",
+
+   "batRating": 5,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Only here for fun",
+
+   "notesForCaptains": “Attacking  Top order batsmen and a good spin option to have in the team”,
+
+   "clubs": [
+
+     "Alone Offender"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-7af5b7b6ad",
+
+   "displayName": "Sumanth Devarasetty",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Stoneridge Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-c9d1261b0e",
+
+   "displayName": "Hemanth Krishna Maraboina",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Stoneridge Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-67779ac279",
+
+   "displayName": "Ajay",
+
+   "photoUrl": "https://drive.google.com/open?id=1Z2t5_dpML4ueizbNfM7Md4SkEiSRu9_G",
+
+   "batRating": 2,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer bowling more, Decent fielder",
+
+   "notesForCaptains": "Can bowl a little , field slightly better , batting not explored yet 😀",
+
+   "clubs": [
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-c18b946918",
+
+   "displayName": "Biswadeep Seth",
+
+   "photoUrl": "https://drive.google.com/open?id=1e_YGlLUEkUsKcmJ0PIyQmVCiWlG1exML",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": "I want to contribute to both bat and ball. Big-hitting skills might require a little practice, and I can comfortably rotate or hold the strike at one end. Bowling is fine for me at any stage.",
+
+   "clubs": [
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-c523e77dc0",
+
+   "displayName": "Adi",
+
+   "photoUrl": "https://drive.google.com/open?id=11gg2fy76q8HYB8bxRGDwwLN9EKTx3Jav",
+
+   "batRating": 4,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "None"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-ba325e9a2f",
+
+   "displayName": "Rachit Rathi",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Only here for fun",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-c73b5bb8c5",
+
+   "displayName": "Ali Dahri",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 4,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-21d38d2210",
+
+   "displayName": "Rakesh Singh",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-c5da305f03",
+
+   "displayName": "Tejeshwar Sankaranarayanan",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains":” good leather ball batsmen and medium pace bowler, Is a potential new GCC recruit”,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-d7837e7d22",
+
+   "displayName": "Vikash Verma",
+
+   "photoUrl": "https://drive.google.com/open?id=1x4hyB-SpqHhKNYT5dRA31PkiYbXyfqPb",
+
+   "batRating": 5,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains": "I am a right-hand batsman and a wicketkeeper, with strong fielding skills. I can also bowl right-arm medium fast ( if needed).",
+
+   "clubs": [
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-ef3541e6de",
+
+   "displayName": "Usman Maqbool",
+
+   "photoUrl": "https://drive.google.com/open?id=1N63ripgdYRN57UvCBCJ7_25yhG5Soq1T",
+
+   "batRating": 3,
+
+   "bowlRating": 5,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": Left handed attacking batsmen,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-35998df39b",
+
+   "displayName": "Muhammad Sohail Siddique",
+
+   "photoUrl": "https://drive.google.com/open?id=1s00Q2d_qBwIgAmDcT1RxWxIaPdDxGZB1",
+
+   "batRating": 3,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Only here for fun",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-f2ea79dd3c",
+
+   "displayName": "Vishal Elaka",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Stoneridge Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-b397b2487b",
+
+   "displayName": "Sahan Sanjaya",
+
+   "photoUrl": "https://drive.google.com/open?id=1Kk4oBzN6jTKZ7GlSLpHMmiDHOCAauCZI",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer bowling more, All Rounder",
+
+   "notesForCaptains": "Solid Fielder. Left arm bowler. Right handed batter",
+
+   "clubs": [
+
+     "Corry Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-96097ddf64",
+
+   "displayName": "Xahid",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "CriGators"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-c9387742fb",
+
+   "displayName": "Divij Goyal",
+
+   "photoUrl": null,
+
+   "batRating": 1,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer bowling more, Only here for fun",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "ISA Undergrads"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-1efe296710",
+
+   "displayName": "Vedant Upganlawar",
+
+   "photoUrl": "https://drive.google.com/open?id=1h17JSzYEaVZrTOgwfDEWEsZ3ipYiuM34",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-64e57c6a04",
+
+   "displayName": "S M Afnan Haque Rehan",
+
+   "photoUrl": null,
+
+   "batRating": 5,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-41e853728f",
+
+   "displayName": "Krishna",
+
+   "photoUrl": null,
+
+   "batRating": 2,
+
+   "bowlRating": 5,
+
+   "rolePreference": "Prefer bowling more",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-f7120e0776",
+
+   "displayName": "C B RAM",
+
+   "photoUrl": "https://drive.google.com/open?id=1w9xD-J4zo1y3XzFaZtRVuozu9fzF5ZEU",
+
+   "batRating": 3,
+
+   "bowlRating": 4,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": "I’m a all-rounder who can bat in the middle order and I can bowl off spin and medium fast as well",
+
+   "clubs": [
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-30df09f952",
+
+   "displayName": "Nitish",
+
+   "photoUrl": "https://drive.google.com/open?id=1WHpetESm-4oG3kGnsXbtczb600hG6NfS",
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": "I’m an all-rounder, steady bat, handy bowler, and always bringing energy to the field",
+
+   "clubs": [
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-98a9b00659",
+
+   "displayName": "Sharath Subramanian",
+
+   "photoUrl": "https://drive.google.com/open?id=1iFhUaSJ3CW4SsbgU9phW4smBIAx-WK6C",
+
+   "batRating": 4,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": "I’m a dynamic, explosive batsman who can change the game quickly. I bring high energy to the field, adapt to different match situations, and thrive under pressure",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-d4b209b112",
+
+   "displayName": "Rishi  Gandhi",
+
+   "photoUrl": "https://drive.google.com/open?id=10LqMvhj7xvVdue_aNe-vQP5f30uAc_hD",
+
+   "batRating": 2,
+
+   "bowlRating": 5,
+
+   "rolePreference": "Prefer bowling more, Only here for fun, Fielding",
+
+   "notesForCaptains": "i played during highschool for 2 years and played for usa u15 but havent played since then",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-d5a8c769b4",
+
+   "displayName": "Prasheel",
+
+   "photoUrl": "https://drive.google.com/open?id=1xAGpqgC3q3vMxh1OFMOIUtcOJ66B3avH",
+
+   "batRating": 2,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Only here for fun",
+
+   "notesForCaptains": "I have literally barely played the sport but I’m down to play any position.",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-78596d28a4",
+
+   "displayName": "Sarth",
+
+   "photoUrl": "https://drive.google.com/open?id=1SK2bFMRpF4v--L6yqmO5QlqxzIYws0w5",
+
+   "batRating": 4,
+
+   "bowlRating": 3,
+
+   "rolePreference": "Prefer batting more, Prefer bowling more, All Rounder, Only here for fun",
+
+   "notesForCaptains": "Can Bowl and Bat",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-a2bb306ab4",
+
+   "displayName": "Kshitij Jain",
+
+   "photoUrl": "https://drive.google.com/open?id=139FtNj5mObxy49VnkrvyXBfC5qWHjob-",
+
+   "batRating": 2,
+
+   "bowlRating": 4,
+
+   "rolePreference": "Prefer bowling more, All Rounder",
+
+   "notesForCaptains": "- Got Selected to U15 and U17 Nationals in consecutive years for USA Cricket and represented Mid-Atlantic Zone\n- Right-Arm Finger/Wrist Spinner, Can Spin both Ways",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-bdae9c19e8",
+
+   "displayName": "Jithen Shriyan",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 1,
+
+   "rolePreference": "Prefer batting more, All Rounder",
+
+   "notesForCaptains":” Left handed batsmen in the middle order,has played for GCC”,
+
+   "clubs": [
+
+     "ISA Undergrads",
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-a2e90db663",
+
+   "displayName": "Adithya Vardhan",
+
+   "photoUrl": null,
+
+   "batRating": 4,
+
+   "bowlRating": 5,
+
+   "rolePreference": "Prefer bowling more, All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-63c3a609f8",
+
+   "displayName": "Pruthvi Manjunatha",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more",
+
+   "notesForCaptains": “Attacking finisher, specializes in middle order batting and finishing”,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-b1595f43ea",
+
+   "displayName": "Ashwin John Vichatt",
+
+   "photoUrl": null,
+
+   "batRating": 1,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer bowling more, Only here for fun",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-203c621f0b",
+
+   "displayName": "Raja Ali Raza",
+
+   "photoUrl": "https://drive.google.com/open?id=1DllIATO8_IMicIreRDN0cW-xbgmOBU9c",
+
+   "batRating": 5,
+
+   "bowlRating": 5,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": [
+
+     "Alachua Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-a9363c3307",
+
+   "displayName": "Nicholas Cohen",
+
+   "photoUrl": null,
+
+   "batRating": 2,
+
+   "bowlRating": 2,
+
+   "rolePreference": "Prefer batting more, All Rounder, Fielding",
+
+   "notesForCaptains": “new to the game but very energetic in the field and a quick learner”,
+
+   "clubs": [
+
+     "Gator Cricket Club"
+
+   ]
+
+ },
+
+ {
+
+   "id": "plr-738d69ed1a",
+
+   "displayName": "Mayank Gangwar",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 3,
+
+   "rolePreference": "All Rounder",
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-e766488a0d",
+
+   "displayName": "Ahmed Rasul",
+
+   "photoUrl": null,
+
+   "batRating": 3,
+
+   "bowlRating": 4,
+
+   "rolePreference": null,
+
+   "notesForCaptains": fast bowler and handy batsmen,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-a117dcc3a9",
+
+   "displayName": "Kawser Kawser",
+
+   "photoUrl": null,
+
+   "batRating": null,
+
+   "bowlRating": null,
+
+   "rolePreference": null,
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-1fa82bda6e",
+
+   "displayName": "Ravi",
+
+   "photoUrl": null,
+
+   "batRating": null,
+
+   "bowlRating": null,
+
+   "rolePreference": null,
+
+   "notesForCaptains": "All rounder",
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-8335b406bf",
+
+   "displayName": "Sheikh Rauf",
+
+   "photoUrl": "https://drive.google.com/open?id=1I-UXW3x8O8fTLmarO0xlqMIAxIcsPgau",
+
+   "batRating": null,
+
+   "bowlRating": null,
+
+   "rolePreference": null,
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ },
+
+ {
+
+   "id": "plr-b0c0d5baa3",
+
+   "displayName": "Laksh Patel",
+
+   "photoUrl": "",
+
+   "batRating": null,
+
+   "bowlRating": null,
+
+   "rolePreference": null,
+
+   "notesForCaptains": null,
+
+   "clubs": []
+
+ }
+
 ]
