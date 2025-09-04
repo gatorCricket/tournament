@@ -102,9 +102,9 @@
 
    "photoUrl": null,
 
-   "batRating": null,
+   "batRating": 3,
 
-   "bowlRating": null,
+   "bowlRating": 3,
 
    "rolePreference": null,
 
