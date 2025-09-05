@@ -24,7 +24,7 @@
     { "pickNo": 7, "teamId": "T2", "playerId": "Waqar Akram" },
     { "pickNo": 8, "teamId": "T2", "playerId": "Kawser Kawser" },
     { "pickNo": 34, "teamId": "T2", "playerId": "Ajay" },
-     { "pickNo": 36, "teamId": "T2", "playerId": "Rishi  Gandhi" },
+    { "pickNo": 36, "teamId": "T2", "playerId": "Rishi  Gandhi" },
     
 
     { "pickNo": 9, "teamId": "T3", "playerId": "Mandar Joshi" },
@@ -47,7 +47,7 @@
     { "pickNo": 19, "teamId": "T5", "playerId": "Rinku Yadav" },
     { "pickNo": 20, "teamId": "T5", "playerId": "Xahid" },
     { "pickNo": 29, "teamId": "T5", "playerId": "Mayank Gangwar" },
-       { "pickNo": 99, "teamId": "T5", "playerId": "Raghava A" },
+    { "pickNo": 99, "teamId": "T5", "playerId": "Raghava A" },
 
     { "pickNo": 21, "teamId": "T6", "playerId": "Laksh Patel" },
     { "pickNo": 22, "teamId": "T6", "playerId": "Pranav Guduru" },
