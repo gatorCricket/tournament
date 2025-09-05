@@ -79,6 +79,14 @@
     { "pickNo": 430, "teamId": "T3", "playerId": "Mohkam Singh" },
     { "pickNo": 431, "teamId": "T7", "playerId": "Vikash Verma" },
     { "pickNo": 432, "teamId": "T5", "playerId": "Sahan Sanjaya" },
-    { "pickNo": 433, "teamId": "T2", "playerId": "Sumanth Devarasetty" }
+    { "pickNo": 433, "teamId": "T2", "playerId": "Sumanth Devarasetty" },
+
+    { "pickNo": 434, "teamId": "T3", "playerId": "Krishna" },
+    { "pickNo": 435, "teamId": "T4", "playerId": "C B RAM" },
+    { "pickNo": 436, "teamId": "T1", "playerId": "Jithen Shriyan" },
+    { "pickNo": 437, "teamId": "T6", "playerId": "Tanay Chandak" },
+    { "pickNo": 438, "teamId": "T2", "playerId": "Sharath Subramanian" },
+    { "pickNo": 439, "teamId": "T5", "playerId": "Raja kashif" },
+    { "pickNo": 440, "teamId": "T7", "playerId": "Kshitij Jain" }
   ]
 }
