@@ -87,6 +87,14 @@
     { "pickNo": 437, "teamId": "T6", "playerId": "Tanay Chandak" },
     { "pickNo": 438, "teamId": "T2", "playerId": "Sharath Subramanian" },
     { "pickNo": 439, "teamId": "T5", "playerId": "Raja kashif" },
-    { "pickNo": 440, "teamId": "T7", "playerId": "Kshitij Jain" }
+    { "pickNo": 440, "teamId": "T7", "playerId": "Kshitij Jain" },
+
+    { "pickNo": 441, "teamId": "T1", "playerId": "Aditya Patidar" },
+    { "pickNo": 442, "teamId": "T4", "playerId": "Sarveshwaran Palani" },
+    { "pickNo": 443, "teamId": "T3", "playerId": "AHMAD ALI" },
+    { "pickNo": 444, "teamId": "T7", "playerId": "Nicholas Cohen" },
+    { "pickNo": 445, "teamId": "T5", "playerId": "Nitish" },
+    { "pickNo": 446, "teamId": "T2", "playerId": "Vasanth Parthasarathy" },
+    { "pickNo": 447, "teamId": "T6", "playerId": "Arnav Chaudhari" }
   ]
 }
