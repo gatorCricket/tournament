@@ -25,7 +25,6 @@
     { "pickNo": 8, "teamId": "T2", "playerId": "Kawser Kawser" },
     { "pickNo": 34, "teamId": "T2", "playerId": "Ajay" },
     { "pickNo": 36, "teamId": "T2", "playerId": "Rishi  Gandhi" },
-    
 
     { "pickNo": 9, "teamId": "T3", "playerId": "Mandar Joshi" },
     { "pickNo": 10, "teamId": "T3", "playerId": "Mayank" },
@@ -33,11 +32,14 @@
     { "pickNo": 12, "teamId": "T3", "playerId": "Vivek Sharma" },
     { "pickNo": 31, "teamId": "T3", "playerId": "Ahmed Rasul" },
     { "pickNo": 39, "teamId": "T3", "playerId": "Jay Patel" },
- 
 
     { "pickNo": 13, "teamId": "T4", "playerId": "Abhinay Reddy" },
     { "pickNo": 14, "teamId": "T4", "playerId": "Rachit Rathi" },
-    { "pickNo": 15, "teamId": "T4", "playerId": "Harsha Vardhan Reddy Vndavally" },
+    {
+      "pickNo": 15,
+      "teamId": "T4",
+      "playerId": "Harsha Vardhan Reddy Vndavally"
+    },
     { "pickNo": 16, "teamId": "T4", "playerId": "Kedar Kelkar" },
     { "pickNo": 32, "teamId": "T4", "playerId": "Abhinav" },
     { "pickNo": 332, "teamId": "T4", "playerId": "Tejeshwar Sankaranarayanan" },
@@ -61,7 +63,6 @@
     { "pickNo": 27, "teamId": "T7", "playerId": "Rakesh Singh" },
     { "pickNo": 28, "teamId": "T7", "playerId": "Amey Paldhikar" },
     { "pickNo": 30, "teamId": "T7", "playerId": "Arman Haleem" },
-    { "pickNo": 40, "teamId": "T7", "playerId": "Kaushik Bhargav Siddani" },
-    
+    { "pickNo": 40, "teamId": "T7", "playerId": "Kaushik Bhargav Siddani" }
   ]
 }
