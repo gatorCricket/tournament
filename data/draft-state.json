@@ -16,8 +16,8 @@
     { "pickNo": 2, "teamId": "T1", "playerId": "Ali Dahri" },
     { "pickNo": 3, "teamId": "T1", "playerId": "Azmat Khan" },
     { "pickNo": 4, "teamId": "T1", "playerId": "Muhammad waqas" },
- { "pickNo": 33, "teamId": "T1", "playerId": "Raja Ali Raza" },
-    
+    { "pickNo": 33, "teamId": "T1", "playerId": "Raja Ali Raza" },
+
     { "pickNo": 5, "teamId": "T2", "playerId": "Naeem Khan" },
     { "pickNo": 6, "teamId": "T2", "playerId": "Muhammad Sohail Siddique" },
     { "pickNo": 7, "teamId": "T2", "playerId": "Waqar Akram" },
@@ -28,7 +28,7 @@
     { "pickNo": 10, "teamId": "T3", "playerId": "Mayank" },
     { "pickNo": 11, "teamId": "T3", "playerId": "Milan" },
     { "pickNo": 12, "teamId": "T3", "playerId": "Vivek Sharma" },
-        { "pickNo": 31, "teamId": "T3", "playerId": "Ahmed Rasul" },
+    { "pickNo": 31, "teamId": "T3", "playerId": "Ahmed Rasul" },
 
     { "pickNo": 13, "teamId": "T4", "playerId": "Abhinay Reddy" },
     { "pickNo": 14, "teamId": "T4", "playerId": "Rachit Rathi" },
@@ -40,18 +40,18 @@
     { "pickNo": 18, "teamId": "T5", "playerId": "Nirshad" },
     { "pickNo": 19, "teamId": "T5", "playerId": "Rinku Yadav" },
     { "pickNo": 20, "teamId": "T5", "playerId": "Xahid" },
-        { "pickNo": 29, "teamId": "T5", "playerId": "Mayank Gangwar" },
+    { "pickNo": 29, "teamId": "T5", "playerId": "Mayank Gangwar" },
 
     { "pickNo": 21, "teamId": "T6", "playerId": "Laksh Patel" },
     { "pickNo": 22, "teamId": "T6", "playerId": "Pranav Guduru" },
     { "pickNo": 23, "teamId": "T6", "playerId": "Pavan" },
     { "pickNo": 24, "teamId": "T6", "playerId": "ramiya dash" },
-        { "pickNo": 33, "teamId": "T6", "playerId": "Rizwan Nabi" },
+    { "pickNo": 35, "teamId": "T6", "playerId": "Rizwan Nabi" },
 
     { "pickNo": 25, "teamId": "T7", "playerId": "Pulastya" },
     { "pickNo": 26, "teamId": "T7", "playerId": "Siddhant  Kumar panda" },
     { "pickNo": 27, "teamId": "T7", "playerId": "Rakesh Singh" },
-    { "pickNo": 28, "teamId": "T7", "playerId": "Amey Paldhikar" }
-     { "pickNo": 30, "teamId": "T5", "playerId": "Arman Haleem" },
+    { "pickNo": 28, "teamId": "T7", "playerId": "Amey Paldhikar" },
+    { "pickNo": 30, "teamId": "T7", "playerId": "Arman Haleem" }
   ]
 }
